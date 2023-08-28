@@ -1,8 +1,48 @@
+/* Media query example on background image, by minimizing the page */
 body {
-    background-color: lightcyan;
-}
-
-h1 {
-    text-align: center;
-    color: black;
-}
+    background-image:url("https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80") ;
+    background-size: cover;
+  }
+  @media screen and (min-width: 993px) {
+    body {
+      background-image: url("https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80");
+      background-size: cover;
+    }
+  }
+  
+  .brand-title {
+    font-size: 2.5em;
+    font-family: arial black;
+    color: #e3f2fd;
+  }
+  
+  .navbar-toggler {
+    float: right;
+    margin-top: -50px
+  }
+  
+  section {
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+  
+  .intro-img {
+    max-width: 58%;
+    border: solid;
+    border-color: cyan;
+    border-width: 4px;
+  } 
+  
+  .card {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .card-body {
+    background-color: #29bdc1;
+    border: solid;
+    border-width: 2px;
+  }
+  h5 {
+    text-decoration: underline;
+  }
